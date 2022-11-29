@@ -1,0 +1,855 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: aparecer 2s ease;
+}
+
+@keyframes aparecer {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Rajdhani', sans-serif;
+  background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*INICIO HEADER*/
+.header_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header_li {
+  list-style-type: none;
+  margin-top: .3rem;
+  margin: 1rem;
+}
+
+.header_link {
+  text-decoration: none;
+  color: #ECEDED;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.header_link-modificador{
+  color: #20aafa;
+  margin-bottom: .3rem;
+}
+
+/*FIN HEADER*/
+
+
+
+
+
+/*INICIO MAIN INDEX*/
+
+.banner_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: .2rem auto;
+  border-radius: 1.2rem;
+  color: #ECEDED;
+  background-image: url(../images/majorCSGo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(100, 100, 135);
+  background-blend-mode: soft-light;
+}
+
+.banner_titulo{
+  color: #ECEDED;
+  font-size: 5rem;
+}
+
+.banner_titulo span{
+  color: #20aafa;
+}
+
+.banner_subtitulo{
+  display: none;
+}
+
+.banner_promocion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.banner_imagen{ 
+ width: 15rem;
+}
+
+.banner_btn{
+width: 60%;
+font-size: 2rem;
+background-color: #20aafa;
+font-weight: 800;
+color: white;
+margin-bottom: 1rem;
+border-radius: 1rem;
+text-decoration: none;
+text-align: center;
+}
+
+.motivacion{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(20, 20, 20);
+  background-blend-mode: soft-light;
+  margin-bottom: 5rem;
+}
+
+.motivacion_imagen{
+  width: 6rem;
+}
+
+.motivacion_caja2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight:800;
+}
+
+.motivacion_titulo {
+  font-size: 3rem;
+  color: #20aafa;
+}
+
+.motivacion_subtitulo{
+  font-size: 1.6rem;
+  color: #ECEDED;
+}
+
+.videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.videos_titulo{
+  font-size: 3rem;
+  color: #ECEDED;
+  border-top: 1px solid #ECEDED;
+  border-bottom: 1px solid #ECEDED;
+  margin-bottom: 1rem;
+  background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(20, 20, 20);
+  background-blend-mode: soft-light;
+}
+
+.video_iframe{
+ width: 70%;
+ margin: 1rem;
+}
+
+/*FIN MAIN INDEX*/
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer span{
+  display: none;
+}
+
+
+.footer_caja1{
+ border-top: 1px solid #ECEDED;
+}
+
+.footer_caja1, .footer_caja2{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer_marcas{
+  color: #ECEDED;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+/*FIN FOOTER*/
+
+
+/*ESTILOS EQUIPOS*/
+
+.equipos_imagen1, .equipos_imagen2, .equipos_imagen3{
+background-position: center;
+background-size: cover;
+}
+
+.equipos_imagen1{
+  background-image: url(../images/equipos/Dota2--equipos.jpg);
+}
+
+.equipos_imagen2{
+  background-image: url(../images/equipos/CSGO--equipos.jpeg);
+}
+
+.equipos_imagen3{
+  background-image: url(../images/equipos/apex-Equipos.jpg);
+}
+
+.equipos_cajaGrande{
+  background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(58, 53, 53);
+  background-blend-mode: soft-light;
+  border-top: 2px solid #20aafa;
+  border-bottom: 3px solid #20aafa;
+}
+.equipos_caja{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #ECEDED;
+}
+
+.equipos_tituloJuego{
+  color: #ECEDED;
+  font-size: 3rem;
+  
+}
+
+.equipos_titulo{
+  font-size: 1.5rem;
+  font-weight: 800;
+  background-color: #20aafa;
+}
+
+.equipos_cajita{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .1rem;
+
+}
+
+.equipos_nombre{
+  color: #ECEDED;
+  font-size: 1.2rem;
+
+}
+
+.equipo_steam{
+  width: 1rem;
+ 
+}
+
+/*FIN ESTILOS EQUIPOS*/
+
+
+
+
+/*ESTILOS TIENDAR*/
+.tienda{
+  background-color: rgba(0, 0, 0, 0.74);
+  backdrop-filter: blur(2.0px);
+  color: #ECEDED;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tienda_tituloYcarrito{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tienda_titulo{
+  font-size: 2.5rem;
+}
+
+.tienda_carrito{
+  width: 2.5rem;
+  background-color: #20aafa;
+  border-radius: 100%;
+}
+
+.tienda_caja{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tienda_producto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #20aafa;
+  border-radius: 1rem;
+  width: 80%;
+  margin: 1rem;
+}
+
+.tienda_img1, .tienda_img2{
+  width: 8rem;
+}
+
+.tienda_imgOtros{
+  width: 10rem;
+}
+
+.tienda_img2{
+  display: none;
+}
+
+.tienda_nombre{
+  font-size: 1.5rem;
+}
+
+
+
+.tienda_marcas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(20, 20, 20);
+  background-blend-mode: soft-light;
+  overflow: hidden
+}
+
+.tienda_marcasImg{
+  width: 5rem;  
+  margin: 2rem;
+}
+
+/*FIN TIENDA*/
+
+
+
+
+/*ESTILOS HORARIOS*/
+.horarios{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ECEDED;
+}
+
+.horarios_titulo{
+  align-self: center;
+  background-color: #20aafa;
+  width: 95%;
+  font-size: 2rem;
+  text-align: end;
+  margin: 1rem ;
+  font-weight: 800;
+  color: #ECEDED;
+  
+}
+
+.horarios_fecha{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.horarios_equipos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.horarios_vs{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #20aafa;
+}
+
+.horarios_iconos{
+  width: 5rem;
+}
+
+.horarios_btn{
+  text-decoration: none;
+  color: black;
+  align-self: center;
+  text-align: center;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 3s ease all;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #20aafa;
+  margin-bottom: 1rem;
+}
+
+.horarios_cajas{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-size: cover;
+  background-color: rgb(20, 20, 20);
+  background-blend-mode: soft-light;
+}
+
+.horarios_cajas-1{
+  background-image: url(../images/horarios/horariosCsGo.jpg);
+  background-position: bottom;
+}
+
+.horarios_cajas-2{
+  background-image: url(../images/horarios/horariosApex.jpg);
+  background-position: left;
+}
+
+.horarios_cajas-3{
+  background-image: url(../images/horarios/horariosDota22.jpg);
+  background-position: bottom;
+}
+
+/*FIN HORARIOS*/
+
+
+/*ESTILOS CONTACTO*/
+.contacto_imagen{
+  background-image: url(../images/contacto/BannerContacto.png);
+  background-position: center;
+}
+
+/*FIN CONTACTO*/
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+
+  /*HEADER*/
+
+  .header_ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header_link{
+  font-size: 1.4rem;
+}
+
+
+
+/*INDEX MAIN*/
+
+  .banner_container{
+  width: 80%;
+}
+
+.banner_titulo{
+  font-size: 5rem;
+}
+
+.banner_caja2{
+  width: 50%;
+  margin: 1rem;
+}
+
+.banner_promocion{
+border-radius: 1rem;
+background-color: rgb(200, 200, 200, 0.30);
+backdrop-filter: blur(4.0px);
+}
+
+.banner_imagen{ 
+ width: 10rem;
+}
+
+.banner_btn{
+font-size: 1.5rem;
+}
+
+.motivacion_caja2{
+  width: 60%;
+}
+
+.motivacion_titulo {
+  font-size: 1.8rem;
+}
+
+.motivacion_subtitulo{
+  font-size: 1.1rem;
+}
+
+.videos_titulo{
+  font-size: 2rem;
+}
+
+.videos_iframe{
+  width: 60%;
+  height: 200;
+}
+
+/*TIENDA*/
+.tienda_producto{
+  width: 40%;
+}
+
+.tienda_nombre{
+  text-align: center;
+}
+
+}
+
+
+
+@media screen and (min-width: 992px){
+
+  /*HEADER*/
+
+  .header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh; 
+}
+
+.header_cajaLogo {
+  margin-left: 2rem;
+}
+
+.header_ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.header_link{
+  font-size: 1.4rem;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.header_link:hover{
+  color: #20aafa;
+  transition: 0.4s;
+}
+
+
+
+ /*INDEX MAIN*/
+
+.banner_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  border-radius: 1.2rem;
+  height: 85vh;
+  margin-bottom: 3rem;
+}
+
+.banner_caja1{
+  width: 50%;
+}
+
+.banner_container:hover span{
+  transition: .5s ease;
+  color:#20aafa;
+}
+
+.banner_container span{
+  transition: .5s;
+}
+
+.banner_titulo{
+  font-size: 9.5rem;
+}
+
+.banner_titulo span{
+  color: #ECEDED;
+}
+
+.banner_subtitulo{
+ display: inline-block;
+}
+
+.banner_promocion{
+border-radius: 1rem;
+background-color: rgb(200, 200, 200, 0.30);
+backdrop-filter: blur(4.0px);
+transition: 1s;
+}
+
+.banner_promocion:hover{
+transition: 1s;
+background-color: rgb(50, 50, 50, 0.30);
+}
+
+.banner_imagen{ 
+ width: 20rem;
+}
+
+.banner_btn{
+width: 40%;
+transition: 1s;
+background-color: black;
+}
+
+.banner_btn:hover{
+transition: .5s;
+background-color: #20aafa;
+}
+
+.motivacion:hover .motivacion_titulo{
+  color:#20aafa;
+  transition: .5s;
+}
+
+.motivacion_caja1{
+  width: 20%;
+  text-align: right;
+}
+
+.motivacion_imagen{
+  width: 10rem;
+}
+
+.motivacion_caja2{
+  width: 60%;
+}
+
+.motivacion_titulo {
+  font-size: 2.5rem;
+  color: #ECEDED;
+  transition: .5s;
+}
+
+.motivacion_subtitulo{
+  font-size: 1.8rem;
+}
+
+.videos_titulo{
+  width: 50%;
+  font-size: 4rem;
+}
+
+.video_iframe{
+ width: 40%;
+}
+
+/*TIENDA*/
+.tienda_tituloYcarrito{
+  justify-content: space-around;
+}
+
+.tienda_caja{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tienda_producto{
+  width: 20rem;
+  height: 35rem;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+.tienda_producto-modificador{
+  width: 26%;
+  justify-content: center;
+  height: 25rem;
+}
+
+.tienda_producto:hover {
+  transition: all .5s ease;
+  color:black;
+  background-color: #ECEDED;
+}
+
+.tienda_img1, .tienda_img2{
+  width: 18rem;
+}
+
+.tienda_nombre{
+  font-size: 2rem;
+}
+
+
+.tienda_imgOtros{
+  width: 10rem;
+}
+
+.tienda_producto:hover .tienda_img1{
+  display: none;
+}
+
+.tienda_producto:hover .tienda_img2{
+  display: block;
+}
+
+/*HORARIOS*/
+
+.horarios_cajas{
+  width: 75%;
+}
+
+.horarios_iconos{
+  width: 7rem;
+}
+
+.horarios_btn{
+  width: 20%;
+  background-color: #ECEDED;
+}
+
+.horarios_btn::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #20aafa;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -100%;
+  transition: .4s ease-in-out all;
+  
+}
+
+
+.horarios_span{
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+  
+}
+
+.horarios_btn:hover::after{
+  left: 0;
+}
+
+.horarios_btn:hover span{
+  color: #ECEDED;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+  margin-top: 5rem;
+}
+
+.footer span{
+  display: inline;
+  color: #ECEDED;
+  padding: .5rem;
+}
+
+.footer_caja1, .footer_caja2{
+  padding: 1rem;
+  margin-left:3rem;
+}
+
+.footer_marcas:hover{
+  color: #20aafa;
+}
+
+
+/*Modificador*/
+.btn-modificador{
+  width: 50%;
+  margin-top: 5rem;
+  margin-bottom:0;
+  border: 1px solid black;
+}
+
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+  /*HEADER*/
+
+  .header_link{
+    font-size: 1.8rem;
+  }
+}
