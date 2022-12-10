@@ -1,0 +1,17 @@
+@mixin pantallaMedina {
+  @media only screen and (min-width: 576px) and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin pantallaGrande {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin pantallaMasGrande {
+  @media screen and (min-width: 1200px){
+    @content;
+  }
+}
