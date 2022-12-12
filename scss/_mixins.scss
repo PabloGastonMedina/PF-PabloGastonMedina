@@ -1,3 +1,17 @@
+@mixin fondo ($url) {
+  background-image: $url;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
 @mixin pantallaMedina {
   @media only screen and (min-width: 576px) and (max-width: 991px) {
     @content;

@@ -23,11 +23,10 @@ body {
 }
 
 .header {
-  align-items: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 .header_li {
@@ -54,6 +53,7 @@ body {
   border-radius: 1.2rem;
   color: #ECEDED;
   background-image: url(../images/majorCSGo.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -72,9 +72,10 @@ body {
 }
 .banner_promocion {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
   margin: auto;
 }
 .banner_imagen {
@@ -126,9 +127,9 @@ body {
 
 .videos {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   width: 100%;
 }
@@ -153,9 +154,9 @@ body {
 
 .footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 .footer span {
@@ -245,9 +246,9 @@ body {
   backdrop-filter: blur(2px);
   color: #ECEDED;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .tienda_tituloYcarrito {
   margin-top: 2rem;
@@ -267,16 +268,16 @@ body {
 }
 .tienda_caja {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 .tienda_producto {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border: 1px solid #20aafa;
   border-radius: 1rem;
   width: 80%;
@@ -317,9 +318,9 @@ body {
 .horarios {
   margin: 1rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: #ECEDED;
 }
 .horarios_titulo {
@@ -462,9 +463,9 @@ body {
   }
   .header_ul {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-direction: row;
     margin-right: 2rem;
   }
   .header_link {
@@ -478,9 +479,9 @@ body {
   }
   .banner {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
     width: 95%;
     border-radius: 1.2rem;
     height: 85vh;
@@ -576,9 +577,9 @@ body {
   }
   .tienda_caja {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .tienda_producto {

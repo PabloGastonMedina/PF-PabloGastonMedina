@@ -20,20 +20,14 @@
 body {
   background-color: $blanco;
   font-family: 'Rajdhani', sans-serif;
-  background-image: url(../images/majorCSGo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  @include fondo(url(../images/majorCSGo.jpg));
 }
 
 //ESTILOS HEADER//
 
 .header {
-  align-items: center;
-  display: flex;
+  @include flex(center, center);
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   &_li{
     list-style-type: none;
@@ -61,9 +55,7 @@ body {
   margin: .2rem auto;
   border-radius: 1.2rem;
   color: $blanco;
-  background-image: url(../images/majorCSGo.jpg);
-  background-position: center;
-  background-size: cover;
+  @include fondo(url(../images/majorCSGo.jpg));
   background-attachment: fixed;
   background-color: rgb(100, 100, 135);
   background-blend-mode: soft-light;
@@ -78,10 +70,9 @@ body {
     display: none;
   }
   &_promocion{
+    @include flex(center, center);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: auto;
   }
   &_imagen{
@@ -101,14 +92,9 @@ body {
 }
 
 .motivacion{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  @include flex(space-around, center);
   width: 100%;
-  background-image: url(../images/majorCSGo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  @include fondo(url(../images/majorCSGo.jpg));
   background-attachment: fixed;
   background-color: rgb(20, 20, 20);
   background-blend-mode: soft-light;
@@ -133,10 +119,8 @@ body {
  }
 
 .videos{
-  display: flex;
+  @include flex(space-around, center);
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
   text-align: center;
   width: 100%;
   &_titulo{
@@ -145,10 +129,7 @@ body {
     border-top: 1px solid $blanco;
     border-bottom: 1px solid $blanco;
     margin-bottom: 1rem;
-    background-image: url(../images/majorCSGo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include fondo(url(../images/majorCSGo.jpg));
     background-attachment: fixed;
     background-color: rgb(20, 20, 20);
     background-blend-mode: soft-light;
@@ -162,10 +143,8 @@ body {
 //ESTILOS FOOTER//
 
 .footer{
-  display: flex;
+  @include flex(center, center);
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   & span{
     display: none;
@@ -174,9 +153,7 @@ body {
     border-top: 1px solid $blanco;
   }
   &_caja1, &_caja2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     flex-wrap: wrap;
   }
   &_marcas{
@@ -207,10 +184,7 @@ background-size: cover;
 }
 
 .equipos_cajaGrande{
-  background-image: url(../images/majorCSGo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  @include fondo(url(../images/majorCSGo.jpg));
   background-color: rgb(58, 53, 53);
   background-blend-mode: soft-light;
   border-top: 2px solid $azulClaro;
@@ -236,9 +210,7 @@ background-size: cover;
 }
 
 .equipos_cajita{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex(space-between, center);
   margin: .1rem;
 }
 
@@ -258,16 +230,12 @@ background-size: cover;
   background-color: rgba(0, 0, 0, 0.74);
   backdrop-filter: blur(2.0px);
   color: $blanco;
-  display: flex;
+  @include flex(center, center);
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   &_tituloYcarrito{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(space-between, center);
     width: 100%;
   }
   &_titulo{
@@ -279,17 +247,13 @@ background-size: cover;
     border-radius: 100%;
   }
   &_caja{
-    display: flex;
+    @include flex(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
   }
   &_producto{
-    display: flex;
+    @include flex(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 1px solid $azulClaro;
     border-radius: 1rem;
     width: 80%;
@@ -308,15 +272,10 @@ background-size: cover;
     font-size: 1.5rem;
   }
   &_marcas{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex(space-around, center);
     width: 100%;
     height: 30vh;
-    background-image: url(../images/majorCSGo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include fondo(url(../images/majorCSGo.jpg));
     background-attachment: fixed;
     background-color: rgb(20, 20, 20);
     background-blend-mode: soft-light;
@@ -332,10 +291,8 @@ background-size: cover;
 
 .horarios{
   margin: 1rem;
-  display: flex;
+  @include flex(center, center);
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: $blanco;
   &_titulo{
     align-self: center;
@@ -354,9 +311,7 @@ background-size: cover;
     text-decoration: underline;
   }
   &_equipos{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flex(space-evenly, center);
     text-align: center;
   }
   &_vs{
@@ -418,15 +373,11 @@ background-size: cover;
 }
 
 
-
-
 //RESPONSIVE//
 @include pantallaMedina{
   .header{
     &_ul{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex(center, center);
       flex-wrap: wrap;
     }
     &_link{
@@ -487,13 +438,6 @@ background-size: cover;
 }
 
 
-
-
-
-
-
-
-
 @include pantallaGrande{
 
   //HEADER//
@@ -506,10 +450,8 @@ background-size: cover;
       margin-left: 2rem;
     }
     &_ul{
-      display: flex;
+      @include flex(flex-end, flex-end);
       flex-direction: row;
-      justify-content: flex-end;
-      align-items: flex-end;
       margin-right: 2rem;
     }
     &_link{
@@ -525,10 +467,8 @@ background-size: cover;
 
   //ESTILOS INDEX//
   .banner{
-    display: flex;
+    @include flex(space-around, center);
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     width: 95%;
     border-radius: 1.2rem;
     height: 85vh;
@@ -635,10 +575,8 @@ background-size: cover;
       justify-content: space-around;
     }
     &_caja{
-      display: flex;
+      @include flex(space-around, center);
       flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
       flex-wrap: wrap;
     }
     &_producto{
@@ -712,7 +650,6 @@ background-size: cover;
   
   }
 
-
     .btn-modificador{
     width: 50%;
     margin-top: 5rem;
@@ -720,18 +657,6 @@ background-size: cover;
     border: 1px solid $negro;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @include pantallaMasGrande{
