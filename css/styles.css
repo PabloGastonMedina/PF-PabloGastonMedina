@@ -265,6 +265,7 @@ body {
   width: 2.5rem;
   background-color: #20aafa;
   border-radius: 100%;
+  transition: all 0.3s;
 }
 .tienda_caja {
   display: flex;
@@ -574,6 +575,10 @@ body {
   }
   .tienda_tituloYcarrito {
     justify-content: space-around;
+  }
+  .tienda_carrito:hover {
+    background-color: antiquewhite;
+    transition: all 0.3s;
   }
   .tienda_caja {
     display: flex;
