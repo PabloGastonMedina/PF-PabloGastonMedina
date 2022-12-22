@@ -354,22 +354,6 @@ body {
 .horarios_iconos {
   width: 5rem;
 }
-.horarios_btn {
-  text-decoration: none;
-  color: black;
-  align-self: center;
-  text-align: center;
-  width: 30%;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: 3s ease all;
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: #20aafa;
-  margin-bottom: 1rem;
-}
 .horarios_cajas {
   overflow: hidden;
   display: flex;
@@ -399,6 +383,23 @@ body {
 .contacto_imagen {
   background-image: url(../images/contacto/BannerContacto.png);
   background-position: center;
+}
+
+.boton_btn {
+  text-decoration: none;
+  color: black;
+  align-self: center;
+  text-align: center;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 3s ease all;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #20aafa;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
@@ -624,11 +625,11 @@ body {
   .horarios_iconos {
     width: 7rem;
   }
-  .horarios_btn {
+  .boton_btn {
     width: 20%;
     background-color: #ECEDED;
   }
-  .horarios_btn::after {
+  .boton_btn::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -639,19 +640,19 @@ body {
     left: -100%;
     transition: 0.4s ease-in-out all;
   }
-  .horarios_btn:hover::after {
+  .boton_btn:hover::after {
     left: 0;
   }
-  .horarios_btn:hover span {
+  .boton_btn:hover span {
     color: #ECEDED;
   }
-  .horarios_span {
+  .boton_span {
     font-size: 1.5rem;
     position: relative;
     z-index: 2;
     transition: 0.3s ease all;
   }
-  .btn-modificador {
+  .boton-modificador {
     width: 50%;
     margin-top: 5rem;
     margin-bottom: 0;

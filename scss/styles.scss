@@ -323,22 +323,6 @@ background-size: cover;
   &_iconos{
     width: 5rem;
   }
-  &_btn{
-    text-decoration: none;
-    color: $negro;
-    align-self: center;
-    text-align: center;
-    width: 30%;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 3s ease all;
-    position: relative;
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: $azulClaro;
-    margin-bottom: 1rem;
-  }
   &_cajas{
     overflow: hidden;
     display: flex;
@@ -372,6 +356,24 @@ background-size: cover;
   background-image: url(../images/contacto/BannerContacto.png);
   background-position: center;
 }
+
+//BOTONES DE TIENDA Y HORARIOS//
+  .boton_btn{
+    text-decoration: none;
+    color: $negro;
+    align-self: center;
+    text-align: center;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 3s ease all;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: $azulClaro;
+    margin-bottom: 1rem;
+  }
 
 
 //RESPONSIVE//
@@ -437,6 +439,8 @@ background-size: cover;
     }
   }
 }
+
+
 
 
 @include pantallaGrande{
@@ -625,10 +629,13 @@ background-size: cover;
     &_iconos{
       width: 7rem;
     }
-    &_btn{
+  }
+
+  //BOTONES TIENDA Y HORARIOS//
+    .boton_btn{
       width: 20%;
       background-color: $blanco;
-      &::after{
+    &::after{
         content: "";
         width: 100%;
         height: 100%;
@@ -646,16 +653,16 @@ background-size: cover;
         color: $blanco;
       }
     }
-    &_span{
+    .boton_span{
       font-size: 1.5rem;
       position: relative;
       z-index: 2;
       transition: .3s ease all;
     }
   
-  }
+  
 
-    .btn-modificador{
+    .boton-modificador{
     width: 50%;
     margin-top: 5rem;
     margin-bottom: 0;
